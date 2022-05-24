@@ -1,0 +1,10 @@
+extends ../app
+
+block header
+block footer
+
+block content
+  ul
+    each route in data.routes
+      li
+        a(href=route.path)= route.title

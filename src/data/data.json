@@ -1,0 +1,22 @@
+{
+  "title": "respiratory-html",
+
+  "routes": [
+    {
+      "title": "Промышленным предприятиям",
+      "path": "industry"
+    },
+    {
+      "title": "UI Kit",
+      "path": "ui"
+    },
+    {
+      "title": "Development",
+      "path": "dev"
+    },
+    {
+      "title": "Test",
+      "path": "test"
+    }
+  ]
+}

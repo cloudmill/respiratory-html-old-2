@@ -1,0 +1,15 @@
+@font-face {
+  src: fontUrl("ALS Gorizont");
+
+  font-family: $fontFamilyTitle;
+}
+
+@each $filename, $fontWeight in ("Manrope-Medium" 500, "Manrope-SemiBold" 600)
+{
+  @font-face {
+    src: fontUrl($filename);
+
+    font-family: $fontFamilyContent;
+    font-weight: $fontWeight;
+  }
+}
